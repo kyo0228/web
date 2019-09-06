@@ -1,7 +1,11 @@
+# thanks!
+# https://poyo.hatenablog.jp/entry/2018/06/08/145255
+#
+
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://kyo0228.github.io/web/"
 languageCode = "en-us"
-title = "Hugo Freelancer Theme"
+title = "kyo0228 github pages"
 theme = "hugo-freelancer-theme"
 
 
