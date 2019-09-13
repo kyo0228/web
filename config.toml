@@ -1,124 +1,105 @@
-# thanks!
-# https://poyo.hatenablog.jp/entry/2018/06/08/145255
-#
+# 公開サイトのルートURL
+baseURL = "https://kyo0228.github.io/web/" 
 
-# Site settings
-baseurl = "https://kyo0228.github.io/web/"
-languageCode = "en-us"
-title = "kyo0228 github pages"
-theme = "hugo-freelancer-theme"
+# 言語設定
+languageCode = "ja-jp"  
+defaultContentLanguage = "ja"
 
+# titleやheder各メタタグ、HomeのH1で使用
+title = "Kyo0228 GithubPages"
+theme = "hermit"  #ジェネレータでは未使用？
+
+# gitのコミット情報をテンプレートに利用できるフラグ。参考サイト https://baldanders.info/hugo/gitinfo/  
+# enableGitInfo = true
+
+# シンタックスハイライトの設定。参考サイト https://monoworks.co.jp/post/2018-07-03-hugo-chroma-syntax-highlighter/
+pygmentsCodefences  = true  
+pygmentsUseClasses  = true
+
+# 言語が中国語、韓国語、日本語の場合に有効とすることで文字数カウントが正しく動作する
+hasCJKLanguage = true 
+
+# RSSフィード内のアイテムの最大数
+rssLimit = 10
+
+# RSSのテンプレートでのみ使用されているcopyright文
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." 
+
+# コンテンツで絵文字を有効にする - https://gohugo.io/functions/emojify/
+enableEmoji = true
+
+# ga,disqus使う場合に設定
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "yourdiscussshortname"
+
+# 作者
+[author]
+  name = "Kyo0228"
+
+# マークダウン記法のライブラリの設定。参考サイト　https://qiita.com/matsuoshi/items/0825a8b37d6ec102f05a
+[blackfriday]
+  hrefTargetBlank = true  #リンクを別タブへ遷移
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+# コンテンツのカテゴリ。 参考サイト https://maku77.github.io/hugo/taxonomy/basic.html
+[taxonomies]
+  tag = "tags"
 
 [params]
+  # 日付フォーマット
+  # ※デフォルトから変更。goはフォーマット文字に[2006-01-02 15:04]を使用する
+  dateform        = "2006-01-02"
+  dateformShort   = "01-02"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-    # You can use Markdown syntax for urls [text](//url.to/source) for
-    # most longer texts.
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
 
-    # To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+  #homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "Inventory of values and goals"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email youself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    email = "your@email.com"
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
 
-    # Custom assets
-	custom_css = []
-	custom_js  = []
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
 
-    [params.navigation]
-        brand = "Mr. Hugo's Portfolio"
+  relatedPosts = false  # Add a related content section to all single posts page
 
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  
+  # Add custom css
+  customCSS = ["css/style.css"]
 
-    [params.header]
-        # Copy your own image into './static/img/'' if you wish
-        image = "profile.png"
-        name = "Mr. Hugo"
-        subtitle = "Blogger - Programmer - Gopher"
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "facebook"
+    url = "https://twitter.com/"
 
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/"
 
-    [params.portfolio]
-        # All projects defined in their own files. You can find example projects
-        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-        # at the root of this Hugo site.
-        # For more informtion take a look at the README.
-        title = "Portfolio"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/"
 
-        [params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttontext = "Close"
+[menu]
 
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
 
-    [params.about]
-        title = "About"
-        # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+  [[menu.main]]
+    name = "About"
+    url = "about-me/"
+    weight = 20
 
-        [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
-            icon = "download"
-
-
-    [params.contact]
-        title = "Contact"
-
-        # 'error' defines error messages for invalid inputs
-        [params.contact.form.name]
-            text = "Name"
-            error = "Please enter your name."
-
-        [params.contact.form.email]
-            text = "Email Address"
-            error = "Please enter your email address."
-
-        [params.contact.form.phone]
-            text = "Phone Number"
-            error = "Please enter your phone number."
-
-        [params.contact.form.message]
-            text = "Message"
-            error = "Please enter a message."
-
-        [params.contact.form.button]
-            text = "Send"
-
-
-    [params.footer]
-        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
-
-        [params.footer.location]
-            title = "Location"
-            # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
-
-        [params.footer.social]
-            title = "Around the web"
-            # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-            # for more icons. The icons are represented by their corresponding
-            # CSS class.
-            [[params.footer.social.networks]]
-                icon = "fa-github"
-                link = "//github.com/spf13/hugo"
-
-            [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
-
-
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
