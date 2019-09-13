@@ -1,3 +1,6 @@
 [submodule "themes/hugo-freelancer-theme"]
 	path = themes/hugo-freelancer-theme
 	url = https://github.com/digitalcraftsman/hugo-freelancer-theme
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
