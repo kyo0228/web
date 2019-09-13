@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on kyo0228 github pages</title>
+    <title>Tags on Kyo0228 GithubPages</title>
     <link>https://kyo0228.github.io/web/tags/</link>
-    <description>Recent content in Tags on kyo0228 github pages</description>
+    <description>Recent content in Tags on Kyo0228 GithubPages</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     
 	<atom:link href="https://kyo0228.github.io/web/tags/index.xml" rel="self" type="application/rss+xml" />
     

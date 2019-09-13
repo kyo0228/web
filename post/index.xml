@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kyo0228 GithubPages</title>
-    <link>https://kyo0228.github.io/web/</link>
-    <description>Recent content on Kyo0228 GithubPages</description>
+    <title>Posts on Kyo0228 GithubPages</title>
+    <link>https://kyo0228.github.io/web/post/</link>
+    <description>Recent content in Posts on Kyo0228 GithubPages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 12 Sep 2019 11:57:41 +0900</lastBuildDate>
     
-	<atom:link href="https://kyo0228.github.io/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kyo0228.github.io/web/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,15 +28,6 @@
       
       <guid>https://kyo0228.github.io/web/post/hello/</guid>
       <description> hello  aaa bbb  </description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://kyo0228.github.io/web/about-me/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kyo0228.github.io/web/about-me/</guid>
-      <description>はじめに Kyo0228です。ご訪問ありがとうございます。このサイトはGithubPagesで公開した静的サイトです。テスト用途で構築しました</description>
     </item>
     
   </channel>

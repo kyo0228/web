@@ -3,11 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kyo0228.github.io/web/categories/</loc>
+    <loc>https://kyo0228.github.io/web/</loc>
+    <lastmod>2019-09-12T11:57:41+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kyo0228.github.io/web/</loc>
+    <loc>https://kyo0228.github.io/web/post/test/</loc>
+    <lastmod>2019-09-12T11:57:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kyo0228.github.io/web/post/</loc>
+    <lastmod>2019-09-12T11:57:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kyo0228.github.io/web/post/hello/</loc>
+    <lastmod>2019-09-12T11:10:22+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kyo0228.github.io/web/about-me/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
