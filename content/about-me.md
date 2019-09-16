@@ -49,7 +49,7 @@ HUGOには豊富なデザインテンプレートがあります。好みのテ�
 * テーマ（公式サイト）
     * [Hugo Themes](https://themes.gohugo.io/)
 
-私は「Hermit」というテーマを選択。
+上記のテーマの中から私は「Hermit」というテーマを選択。
 
 * Hermit
     * [Hermit (Hugo Themes)](https://themes.gohugo.io/hermit/)
