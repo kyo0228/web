@@ -1,0 +1,58 @@
+@startuml
+title 大三会シーケンス図
+
+participant nari as A
+participant nao as B
+collections members as C
+autonumber
+
+== 約１ヶ月前 ==
+A -> C: 参加確認
+B -> C: 会費、賞金
+C --> A: 参加返信
+
+loop 人数変更次第
+    A -> C: 金額調整
+
+    break 人数確定
+        A -> C: 金額確定
+    end
+
+end
+
+B -> B: 計算間違え直し
+
+== 数日前 ==
+autonumber 10
+A -> C: 組み合わせ発表
+A -> C: 馬発表
+B -> C: 会費、賞金確定
+
+== 当日 ==
+autonumber 20
+note over A ,C
+    現地集合
+    開始
+end note
+
+note over A ,C
+    終了
+end note
+
+note over A ,C
+    海勢集合
+end note
+
+B -> C: 結果発表
+
+A -> C: 次回予定日通知
+
+
+@enduml
+
+Visual Studio Codeで自由自在にUMLを描こう
+https://blog.okazuki.jp/entry/2016/09/01/215508
+
+【基礎を覚えよう！】シーケンス図の使い方まとめ
+https://www.sejuku.net/blog/87396
+
