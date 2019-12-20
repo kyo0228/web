@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 30 Nov 2019 12:33:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 21:56:30 +0900</lastBuildDate>
     
 	<atom:link href="https://kyo0228.github.io/web/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>短期達成度(〜2019/12/20)</title>
+      <link>https://kyo0228.github.io/web/posts/week20191220/</link>
+      <pubDate>Fri, 20 Dec 2019 21:56:30 +0900</pubDate>
+      
+      <guid>https://kyo0228.github.io/web/posts/week20191220/</guid>
+      <description>1:仕事 ★★★ D社リリースを終えてやること少しなくなった 油断したのかインフルA発症 R社のアプリ設計できるとこから進める 2:友人 ★ 12月は周り</description>
+    </item>
     
     <item>
       <title>短期達成度(〜2019/11/30)</title>
@@ -91,15 +100,6 @@
       
       <guid>https://kyo0228.github.io/web/post/hello/</guid>
       <description> hello  aaa bbb  </description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://kyo0228.github.io/web/about-me/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kyo0228.github.io/web/about-me/</guid>
-      <description>はじめに Kyo0228です。ご訪問ありがとうございます。このサイトはGithubPagesで公開した静的サイトです。テスト用途で構築しました</description>
     </item>
     
   </channel>
